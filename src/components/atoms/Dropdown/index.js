@@ -3,8 +3,8 @@ import styled from "styled-components";
 const Dropdown = styled.select`
   width: 100%;
   height: 35px;
-  background: #abd1c6;
-  color: #004643;
+  background: ${(props) => (props.primary ? "#abd1c6" : "#004643")};
+  color: ${(props) => (props.primary ? "#004643" : "#abd1c6")};
   padding-left: 5px;
   font-size: 14px;
   border: none;

@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: palevioletred;
+
+  .logo-app {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: white;
+  }
+}

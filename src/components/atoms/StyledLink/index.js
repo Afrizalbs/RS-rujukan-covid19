@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
-const Link = ({ href, label, className }) => (
-  <a className={className} href={href}>
+const Link = ({ onClick, label, className }) => (
+  <a className={className} onClick={onClick}>
     {label}
   </a>
 );
 
 const StyledLink = styled(Link)`
-  color: #abd1c6;
-  font-size: 14px;
+  color: #fffffe;
+  font-size: 20px;
   font-weight: 500;
-  border: 2px solid #abd1c6;
-  border-radius: 10px;
+  border-bottom: 2px solid #fffffe;
   padding: 5px;
   text-decoration: none;
+  cursor: pointer;
   :hover {
-    color: white;
-    border: 2px solid white;
+    color: #b8c1ec;
+    border-bottom: 2px solid #b8c1ec;
   }
 `;
 

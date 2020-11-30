@@ -14,9 +14,9 @@ const Card = ({ nama, nim, photo, alt }) => {
           <p className="nim">{nim}</p>
           <Gap height={40} />
           <Dropdown>
-            <option value="">Kelas</option>
-            <option value="1">RSBK</option>
-            <option value="2">Multimedia</option>
+            <option value="">Status</option>
+            <option value="1">Jomblo</option>
+            <option value="2">Taken</option>
           </Dropdown>
         </div>
       </div>

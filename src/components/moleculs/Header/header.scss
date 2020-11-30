@@ -2,14 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
-  background-color: palevioletred;
+  padding: 40px 40px;
+  background-color: #232946;
 
   .logo-app {
     font-weight: 500;
-    font-size: 20px;
     margin: 0px;
     text-transform: uppercase;
-    color: white;
+    color: #fffffe;
+  }
+
+  .link-wrapper {
+    margin-right: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
   }
 }

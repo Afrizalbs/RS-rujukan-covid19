@@ -1,12 +1,18 @@
 import React from "react";
-import { Button } from "../../atoms";
+import { useHistory } from "react-router-dom";
+import { StyledLink } from "../../atoms";
 import "./header.scss";
 
 function Header() {
+  const history = useHistory();
+
   return (
     <div className="header">
-      <p className="logo-app">kelompok 30</p>
-      <Button>About</Button>
+      <h2 className="logo-app">kelompok 30</h2>
+      <div className="link-wrapper">
+        <StyledLink label="Home" onClick={() => history.push("/")} />
+        <StyledLink label="About" onClick={() => history.push("/about-page")} />
+      </div>
     </div>
   );
 }

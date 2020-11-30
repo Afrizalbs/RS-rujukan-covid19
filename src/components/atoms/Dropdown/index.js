@@ -3,16 +3,16 @@ import styled from "styled-components";
 const Dropdown = styled.select`
   width: 100%;
   height: 35px;
-  background: ${(props) => (props.primary ? "#abd1c6" : "#004643")};
-  color: ${(props) => (props.primary ? "#004643" : "#abd1c6")};
+  background: ${(props) => (props.primary ? "#eebbc3" : "#b8c1ec")};
+  color: ${(props) => (props.primary ? "#121629" : "#232946")};
   padding-left: 5px;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
   option {
-    color: #004643;
-    background: #abd1c6;
-    font-weight: small;
+    color: ${(props) => (props.primary ? "#121629" : "#232946")};
+    background: ${(props) => (props.primary ? "#eebbc3" : "#b8c1ec")};
+    font-weight: 400;
     display: flex;
     white-space: pre;
     min-height: 20px;

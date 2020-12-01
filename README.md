@@ -1,4 +1,4 @@
-# Berita Olahraga menggunakan API
+# API Berita Olahraga menggunakan React JS
 
 API berita menggunakan source dari CNN [API CNN News](https://www.news.developeridn.com/olahraga).
 
